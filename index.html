@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LogIn</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="image-container">
+        <img src="assets/img/pexels-raffaelferro-11744716.jpg" draggable="false" class="background">
+        <div class="overlay-content-container">
+            <div class="overlay-content">
+                <div class="viking-container">
+                    <img src="assets/img/viking.png" draggable="false" class="viking">
+                </div>
+                <span class="ODIN">ODIN</span>
+            </div>
+        </div>
+    </div>
+    <div class="form-container">
+        <div class="form-header">
+            <p class="header-text">This is a demo registration page! You know you need something like this in your life to help you realize your deepest dreams. Sign up now to get started.
+            </p>
+            <br>
+            <p> You know you want to. </p>
+        </div>
+        <div class="form-area">
+
+                <p>Let's do this!</p>
+                <div class="left-right-container">
+                    <div class="form-left">
+                        <ul>
+                            <li>
+                                <label for="first-name" class="labels">FIRST NAME <span>*</span></label>
+                                <input type="text" id="first-name" required>
+                            </li>
+                            <li>
+                                <label for="email" class="labels">EMAIL</label>
+                                <input type="email" id="email">
+                            </li>
+                            <li>
+                                <label for="password" class="labels">PASSWORD <span>*</span></label>
+                                <input type="text" id="password" required>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="form-right">
+                        <ul>
+                            <li>
+                                <label for="last-name" class="labels">LAST NAME <span>*</span></label>
+                                <input type="text" id="last-name" required>
+                            </li>
+                            <li>
+                                <label for="phone" class="labels">PHONE NO.</label>
+                                <input type="text" id="phone" name="phone" pattern="\d{10}" maxlength="10" required>
+                            </li>
+                            <li>
+                                <label for="confirm-password" class="labels">CONFIRM PASSWORD <span>*</span></label>
+                                <input type="text" id="confirm-password" required>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+        </div>
+        <div class="form-footer">
+            <button class="create">Create Account</button>
+            <div class="login-section">
+                <p>already have a account?</p>
+                <a href="#">Log in</a>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
